@@ -1,0 +1,146 @@
+#particles-js {
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  /* background-color: #212529; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.particles-js-canvas-el {
+  position: absolute;
+}
+#about {
+  margin-top: 35rem;
+}
+#navbar {
+  position: fixed;
+  animation-delay: inherit;
+}
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
+#body {
+  margin: 0%;
+  width: 100%;
+}
+.bg-about {
+  background-image: url("wave-haikei\ \(1\).svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-projects {
+  background-image: url("wave-haikei\ \(6\).svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-contact {
+  background-image: url("layered-peaks-haikei\ \(4\).svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  clear: both;
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+}
+.navbar {
+  padding: 10px;
+  font-size: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar ul li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  transition: color 0.5s;
+}
+
+.navbar ul li .underline {
+  height: 1px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
+}
+
+.navbar ul li.active-link .underline {
+  width: 100%;
+  background-color: white;
+}
+
+.navbar ul li:hover .underline {
+  background-color: white;
+  width: 100%;
+}
+
+.navbar ul li:hover a {
+  transition: none;
+}
+
+.navbar ul li:active a {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.navbar ul li:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+.icons {
+  /*
+      All of the base styles have
+      moved to the “CSS” tab above.
+    */
+  transition: transform 250ms;
+}
+
+.icons:hover {
+  transform: translateY(-10px);
+}
+
+.skills-icons {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+.skills-icons:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.img-projects:hover {
+  box-shadow: 1px 1px #ffffff, 2px 2px #ffffff, 3px 3px #ffffff;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
