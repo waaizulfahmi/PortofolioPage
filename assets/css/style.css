@@ -13,7 +13,7 @@
 }
 #about {
   margin-top: 35rem;
-  overflow-x: hidden;
+  
 }
 #navbar {
   position: fixed;
@@ -26,6 +26,7 @@ a {
 #body {
   margin: 0%;
   width: 100%;
+  overflow-x: hidden;
 }
 .bg-about {
   background-image: url("wave-haikei\ \(1\).svg");
