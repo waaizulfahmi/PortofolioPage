@@ -13,6 +13,7 @@
 }
 #about {
   margin-top: 35rem;
+  overflow-x: hidden;
 }
 #navbar {
   position: fixed;
