@@ -23,6 +23,13 @@ p,
 a {
   font-family: "Poppins", sans-serif;
 }
+html, body {
+  overflow-x: hidden;
+  width:100%;
+  /* You may also want to try adding:*/
+  margin: 0;
+  padding: 0;
+}
 #body {
   margin: 0%;
   width: 100%;
